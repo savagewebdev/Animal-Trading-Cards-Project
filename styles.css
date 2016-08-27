@@ -1,9 +1,41 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+body {
+	background: #D6D6D6;
+}
+.grid {
+	margin: 0 auto;
+	background: white;
+	padding: 10px 20px 20px 10px;
+	width: 365px;
+	height: 100%;
+}
 .list {
 	font-weight: bold;
 }
 .cattributes {
 	list-style-type: none;
+	padding-left: 0;
 }
 .factoid {
 	font-style: italic;
+}
+.outerborder {
+	border: 1px solid #D6D6D6;
+	padding: 15px;
+	width: 335px;
+	-webkit-box-shadow: 10px 10px 2px -1px rgba(214,214,214,0.58);
+	-moz-box-shadow: 10px 10px 2px -1px rgba(214,214,214,0.58);
+	box-shadow: 10px 10px 2px -1px rgba(214,214,214,0.58);
+}
+.space {
+	padding-top: 10px;
+}
+.text {
+	border:	1px solid #D6D6D6;
+	padding: 0px 15px 15px 15px;
 }
