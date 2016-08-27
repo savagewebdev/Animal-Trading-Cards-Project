@@ -1,1 +1,9 @@
-/* add your CSS here */
+.list {
+	font-weight: bold;
+}
+.cattributes {
+	list-style-type: none;
+}
+.factoid {
+	font-style: italic;
+}
